@@ -1,0 +1,56 @@
+<div class="hero-container">
+  <div class="overlay">
+    <header>
+      <span class="icon">🎬</span> STREAM • WATCH • ENJOY
+    </header>
+    
+    <h1>Telugu Movies<br>Watch Here</h1>
+    <p>Your one-stop destination for the best Telugu blockbusters.<br>Verify your number to start watching instantly.</p>
+    
+    <div class="features">
+      <span>✨ 12+ Movies</span>
+      <span>✨ HD Quality</span>
+      <span>✨ Free Access</span>
+    </div>
+    
+    <button class="verify-btn">
+      ▶ Get Started — Verify OTP
+    </button>
+    
+    <footer>
+      Made by <strong>Sai Hemanth Kumar</strong>
+    </footer>
+  </div>
+</div>
+.hero-container {
+  background-image: url('your-collage-image.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent layer */
+  padding: 40px;
+  width: 100%;
+}
+
+.verify-btn {
+  background-color: #00a8ff;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.features span {
+  margin: 0 10px;
+}
