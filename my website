@@ -1,6 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Sales Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(to right, #111, #333);
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    .shop-now {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background-color: #ff6600;
+      color: white;
+      font-size: 1.2em;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .shop-now:hover {
+      background-color: #ff3300;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px;
+      gap: 30px;
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(255,255,255,0.2);
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 15px 15px 0 0;
+    }
+    .card h2 {
+      margin: 15px 0 5px;
+    }
+    .card p {
+      font-size: 1.1em;
+      margin: 5px 0 15px;
+    }
+    .buy-now {
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      background-color: #00cc66;
+      color: white;
+      font-size: 1em;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .buy-now:hover {
+      background-color: #00994d;
+    }
+  </style>
+</head>
 <body>
-  <h1>Hello World! My website is live.</h1>
+  <header>
+    <h1>Welcome to Mobile Sales Online</h1>
+    <a href="#products" class="shop-now">Shop Now</a>
+  </header>
+
+  <section id="products" class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=iPhone+15+Pro" alt="iPhone 15 Pro">
+      <h2>iPhone 15 Pro</h2>
+      <p>₹1,25,000</p>
+      <a href="#" class="buy-now">Buy Now</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Samsung+Galaxy+S24" alt="Samsung Galaxy S24">
+      <h2>Samsung Galaxy S24</h2>
+      <p>₹95,000</p>
+      <a href="#" class="buy-now">Buy Now</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=OnePlus+12" alt="OnePlus 12">
+      <h2>OnePlus 12</h2>
+      <p>₹65,000</p>
+      <a href="#" class="buy-now">Buy Now</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Google+Pixel+9" alt="Google Pixel 9">
+      <h2>Google Pixel 9</h2>
+      <p>₹70,000</p>
+      <a href="#" class="buy-now">Buy Now</a>
+    </div>
+  </section>
 </body>
 </html>
